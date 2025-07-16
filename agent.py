@@ -1,4 +1,4 @@
-from azure.ai.foundry.agent import Agent
+from azure import Agent
 
 
 from tools.check_user_availability import tool as check_availability_tool
