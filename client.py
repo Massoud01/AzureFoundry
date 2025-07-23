@@ -39,8 +39,9 @@ async def connect_to_server(exit_stack: AsyncExitStack):
     print("\nConnected to MCP server with tools:", [tool.name for tool in tools])
     manual_result = await session.call_tool("get_user_availability_graph", {
     "user_email": "massoud.nohra@javistasandbox.onmicrosoft.com",
-    "start_time": "2025-07-25T15:00:00Z",
-    "end_time": "2025-07-25T15:30:00Z"
+    "start_time": "2025-07-24T15:00:00",
+    "end_time": "2025-07-24T15:30:00",
+    "time_zone": "Asia/Beirut"
 })
     print("Manual tool call result:", manual_result)
 
