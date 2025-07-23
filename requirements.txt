@@ -1,0 +1,6 @@
+mcp
+azure-ai-agents
+azure-identity
+python-dotenv
+msal
+aiohttp
